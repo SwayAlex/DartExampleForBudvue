@@ -1,0 +1,21 @@
+void main() {
+  for (int i = 1; i <= 100; i++) {
+    
+    if(i%15 == 0){
+      print('Budvue should consider Ai,Siwei for this position');
+    }
+    
+      else if(i%5 == 0){
+      print('Vue');
+      }
+    
+     else if(i%3 == 0){
+      print('Bud');
+      }
+    
+      else{
+        print('$i');
+      }
+    
+  }
+}
